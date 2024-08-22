@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "top.alittlebot.thinking.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockMixin",
+    "TridentItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
