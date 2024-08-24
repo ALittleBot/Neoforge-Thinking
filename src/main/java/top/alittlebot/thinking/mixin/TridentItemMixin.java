@@ -39,7 +39,6 @@ public abstract class TridentItemMixin {
             Holder<SoundEvent> holder = EnchantmentHelper.pickHighestLevel(itemstack, EnchantmentEffectComponents.TRIDENT_SOUND)
                     .orElse(SoundEvents.TRIDENT_THROW);
             level.playSound(null, player, holder.value(), SoundSource.PLAYERS, 1.0F, 1.0F);
-
             cir.setReturnValue(InteractionResultHolder.consume(itemstack));
         }
     }
