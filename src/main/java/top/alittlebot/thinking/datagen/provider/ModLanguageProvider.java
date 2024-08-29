@@ -3,6 +3,7 @@ package top.alittlebot.thinking.datagen.provider;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 import top.alittlebot.thinking.Thinking;
+import top.alittlebot.thinking.item.ModItems;
 
 public class ModLanguageProvider {
 
@@ -14,6 +15,8 @@ public class ModLanguageProvider {
         @Override
         protected void addTranslations() {
             this.add("enchantment.thinking.automatic", "Automatic");
+            this.add("enchantment.thinking.damaged", "Damaged");
+            this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
         }
     }
 
@@ -26,6 +29,15 @@ public class ModLanguageProvider {
         @Override
         protected void addTranslations() {
             this.add("enchantment.thinking.automatic", "自动化");
+            this.add("enchantment.thinking.damaged", "损坏");
+            this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
         }
     }
+    /*
+    public String enchantment_add(ResourceKey<Enchantment> key) {
+        String registry = key.registry().getPath();
+        ResourceLocation location = key.location();
+        return registry + "." + location.getNamespace() + "." + location.getPath();
+    }
+    */
 }

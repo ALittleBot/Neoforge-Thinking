@@ -1,0 +1,78 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "thinking:item/smile_emoji",
+		"particle": "thinking:item/smile_emoji"
+	},
+	"elements": [
+		{
+			"name": "emoji",
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 14, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "left",
+			"from": [1, 9, 8],
+			"to": [1, 10, 21],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.5], "texture": "#0"},
+				"east": {"uv": [15.55556, 0, 16, 0.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"west": {"uv": [15.55556, 0.38889, 16, 0], "texture": "#0"},
+				"up": {"uv": [0, 6.5, 0, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 6.5], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [15, 9, 8],
+			"to": [15, 10, 21],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 16], "texture": "#0"},
+				"east": {"uv": [15.54444, 1.33333, 16, 0.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#missing"},
+				"west": {"uv": [15.27778, 3.42222, 16, 3.92222], "texture": "#0"},
+				"up": {"uv": [0, -1.14444, -0.26667, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 6.5], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [1, 9, 21],
+			"to": [15, 10, 21],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 5]},
+			"faces": {
+				"north": {"uv": [15.37778, 2.52222, 16, 3.11111], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"south": {"uv": [15.4, 1.51111, 16, 1.47778], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0.5], "texture": "#missing"},
+				"up": {"uv": [7, 0, 0, 0], "texture": "#missing"},
+				"down": {"uv": [7, 0, 0, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -0.25]
+		},
+		"ground": {
+			"translation": [0, 2.75, -3.75]
+		},
+		"gui": {
+			"rotation": [-165, 30, 180],
+			"translation": [0, 1, 0.25]
+		},
+		"head": {
+			"translation": [0, 0, -6.5]
+		}
+	}
+}

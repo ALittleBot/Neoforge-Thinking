@@ -14,6 +14,7 @@ import top.alittlebot.thinking.Thinking;
 public class ModEnchantments {
 
     public static final ResourceKey<Enchantment> AUTOMATIC = key("automatic");
+    public static final ResourceKey<Enchantment> DAMAGED = key("damaged");
 
     public static void bootstrap(BootstrapContext<Enchantment> context) {
         HolderGetter<Item> holderGetterItem = context.lookup(Registries.ITEM);
@@ -32,7 +33,24 @@ public class ModEnchantments {
                         )
                 )
         );
+        register(
+                context,
+                DAMAGED,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                holderGetterItem.getOrThrow(ItemTags.TRIDENT_ENCHANTABLE),
+                                2,
+                                1,
+                                Enchantment.constantCost(25),
+                                Enchantment.constantCost(50),
+                                8,
+                                EquipmentSlotGroup.ANY
+                        )
+                )
+        );
     }
+
+
 
     // 注册附魔的方法
     private static void register(BootstrapContext<Enchantment> context, ResourceKey<Enchantment> key, Enchantment.Builder builder) {

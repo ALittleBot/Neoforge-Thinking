@@ -9,6 +9,9 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
 
 import javax.annotation.Nullable;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 辅助类，用于处理与附魔相关的逻辑。
@@ -35,5 +38,33 @@ public class ModEnchantmentHelper {
 
         //没有附魔则返回0。
         return 0;
+    }
+
+    public static Set
+            <Object2IntMap.Entry<Holder<Enchantment>>> getEnchantments(ItemStack stack) {
+        ItemEnchantments itemenchantments = stack.getOrDefault(DataComponents.ENCHANTMENTS, ItemEnchantments.EMPTY);
+        return itemenchantments.entrySet();
+    }
+
+    public static Map<Enchantment, Integer> convertToMap(ItemStack stack) {
+        // 获取原始的Set<Object2IntMap.Entry<Holder<Enchantment>>>
+        Set<Object2IntMap.Entry<Holder<Enchantment>>> enchantmentEntries = getEnchantments(stack);
+
+        // 创建一个新的Map来存储转换后的Enchantment -> Integer对
+        Map<Enchantment, Integer> enchantmentMap = new HashMap<>();
+
+        // 遍历原始集合并将其转换为Map<Enchantment, Integer>
+        for (Object2IntMap.Entry<Holder<Enchantment>> entry : enchantmentEntries) {
+            // 解包Holder<Enchantment>以获取实际的Enchantment对象
+            Enchantment enchantment = entry.getKey().value();
+
+            // 获取对应的整数值
+            int level = entry.getIntValue();
+
+            // 将结果放入新的Map中
+            enchantmentMap.put(enchantment, level);
+        }
+
+        return enchantmentMap;
     }
 }

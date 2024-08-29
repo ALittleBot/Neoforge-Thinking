@@ -4,8 +4,12 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BlockMixin",
+    "FireworkRocketItemMixin",
+    "ParrotMixin",
+    "SpawnEggItemMixin",
     "TridentItemMixin",
-    "VaultBlockEntityServerMixin"
+    "VaultBlockEntityServerMixin",
+    "VaultServerDataInvoker"
   ],
   "client": [
   ],
