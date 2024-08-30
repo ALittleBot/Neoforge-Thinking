@@ -11,9 +11,11 @@ public class ModItems {
 
     public static final String SMILE_EMOJI_ID = "smile_emoji";
     public static final String BRAIN_ID = "brain";
+    public static final String POTION_THROWING_GLOVE_ID = "potion_throwing_glove";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
     public static final Supplier<Item> BRAIN_ITEM;
+    public static final Supplier<Item> POTION_THROWING_GLOVE_ITEM;
 
     static {
         /*
@@ -22,8 +24,9 @@ public class ModItems {
                 ArmorItem.Type.HELMET,
                 new Item.Properties().stacksTo(1)
         ));
-         */
+        */
         SMILE_EMOJI_ITEM = ITEMS.registerSimpleItem(SMILE_EMOJI_ID);
         BRAIN_ITEM = ITEMS.registerSimpleItem(BRAIN_ID);
+        POTION_THROWING_GLOVE_ITEM = ITEMS.register(POTION_THROWING_GLOVE_ID, () -> new PotionThrowingGloveItem(new Item.Properties().stacksTo(1)));
     }
 }

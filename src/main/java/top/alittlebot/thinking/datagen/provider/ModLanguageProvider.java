@@ -21,6 +21,7 @@ public class ModLanguageProvider {
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
+            this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "Potion Throwing Glove");
 
             this.add(ModCreativeTab.MOD_TAB_ID, "Thinking");
         }
@@ -40,6 +41,7 @@ public class ModLanguageProvider {
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
+            this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "药水投掷手套");
 
             this.add(ModCreativeTab.MOD_TAB_ID, "别吵, 我在思考");
         }

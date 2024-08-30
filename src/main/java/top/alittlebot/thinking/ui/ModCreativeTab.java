@@ -21,6 +21,7 @@ public class ModCreativeTab {
                 .displayItems((parameters, output) -> {
                     output.accept(ModItems.SMILE_EMOJI_ITEM.get());
                     output.accept(ModItems.BRAIN_ITEM.get());
+                    output.accept(ModItems.POTION_THROWING_GLOVE_ITEM.get());
                 }).build());
     }
 }
