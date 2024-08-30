@@ -2,5 +2,7 @@
   "enchantment.thinking.automatic": "Automatic",
   "enchantment.thinking.damaged": "Damaged",
   "enchantment.thinking.raining_knives": "§cRaining Knives",
-  "item.thinking.smile_emoji": "Smile Mask"
+  "item.thinking.brain": "Brain",
+  "item.thinking.smile_emoji": "Smile Mask",
+  "item_group.thinking.name": "Thinking"
 }

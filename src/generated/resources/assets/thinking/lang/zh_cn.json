@@ -2,5 +2,7 @@
   "enchantment.thinking.automatic": "自动化",
   "enchantment.thinking.damaged": "损坏",
   "enchantment.thinking.raining_knives": "§c天上下刀子",
-  "item.thinking.smile_emoji": "笑脸面具"
+  "item.thinking.brain": "大脑",
+  "item.thinking.smile_emoji": "笑脸面具",
+  "item_group.thinking.name": "别吵, 我在思考"
 }

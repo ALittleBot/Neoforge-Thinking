@@ -10,10 +10,10 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Thinking.MODID);
 
     public static final String SMILE_EMOJI_ID = "smile_emoji";
-    public static final String THINKING_PICKAXE_ID = "thinking_pickaxe";
+    public static final String BRAIN_ID = "brain";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
-    public static final Supplier<Item> THINKING_PICKAXE_ITEM;
+    public static final Supplier<Item> BRAIN_ITEM;
 
     static {
         /*
@@ -24,6 +24,6 @@ public class ModItems {
         ));
          */
         SMILE_EMOJI_ITEM = ITEMS.registerSimpleItem(SMILE_EMOJI_ID);
-        THINKING_PICKAXE_ITEM = ITEMS.registerSimpleItem(THINKING_PICKAXE_ID);
+        BRAIN_ITEM = ITEMS.registerSimpleItem(BRAIN_ID);
     }
 }
