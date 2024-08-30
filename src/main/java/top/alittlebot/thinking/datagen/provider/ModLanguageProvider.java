@@ -16,6 +16,7 @@ public class ModLanguageProvider {
         protected void addTranslations() {
             this.add("enchantment.thinking.automatic", "Automatic");
             this.add("enchantment.thinking.damaged", "Damaged");
+            this.add("enchantment.thinking.raining_knives", "Raining Knives");
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
         }
     }
@@ -30,6 +31,7 @@ public class ModLanguageProvider {
         protected void addTranslations() {
             this.add("enchantment.thinking.automatic", "自动化");
             this.add("enchantment.thinking.damaged", "损坏");
+            this.add("enchantment.thinking.raining_knives", "天上下刀子");
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
         }
     }

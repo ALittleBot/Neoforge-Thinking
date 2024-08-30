@@ -15,6 +15,7 @@ public class ModEnchantments {
 
     public static final ResourceKey<Enchantment> AUTOMATIC = key("automatic");
     public static final ResourceKey<Enchantment> DAMAGED = key("damaged");
+    public static final ResourceKey<Enchantment> RAINING_KNIVES = key("raining_knives");
 
     public static void bootstrap(BootstrapContext<Enchantment> context) {
         HolderGetter<Item> holderGetterItem = context.lookup(Registries.ITEM);
@@ -47,6 +48,21 @@ public class ModEnchantments {
                                 EquipmentSlotGroup.ANY
                         )
                 )
+        );
+        register(
+                context,
+                RAINING_KNIVES,
+                Enchantment.enchantment(
+                        Enchantment.definition(
+                                holderGetterItem.getOrThrow(ItemTags.HEAD_ARMOR_ENCHANTABLE),
+                                2,
+                                1,
+                                Enchantment.constantCost(25),
+                                Enchantment.constantCost(50),
+                                8,
+                                EquipmentSlotGroup.ANY
+                        )
+               )
         );
     }
 
