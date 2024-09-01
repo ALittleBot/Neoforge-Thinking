@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import top.alittlebot.thinking.ehchantmentblock.BlockEnchantmentStorage;
+import top.alittlebot.thinking.enchantmentblock.BlockEnchantmentStorage;
 import top.alittlebot.thinking.enchantment.ModEnchantmentHelper;
 
 @Mixin(VaultBlockEntity.Server.class)

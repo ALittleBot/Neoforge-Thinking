@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
 import net.minecraft.world.level.Level;
-import top.alittlebot.thinking.ehchantmentblock.BlockEnchantmentStorage;
+import top.alittlebot.thinking.enchantmentblock.BlockEnchantmentStorage;
 
 import java.util.Objects;
 import java.util.Optional;
