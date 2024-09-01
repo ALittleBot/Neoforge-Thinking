@@ -11,21 +11,22 @@ import net.minecraft.util.Mth;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.NotNull;
+import top.alittlebot.thinking.Thinking;
 import top.alittlebot.thinking.entity.Zako;
 
 @OnlyIn(Dist.CLIENT)
 public class ZakoRenderer extends MobRenderer<Zako, CodModel<Zako>> {
-    private static final ResourceLocation COD_LOCATION = ResourceLocation.withDefaultNamespace("textures/entity/fish/cod.png");
+    private static final ResourceLocation ZAKO_LOCATION = ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "textures/entity/fish/zako.png");
 
     public ZakoRenderer(EntityRendererProvider.Context p_173954_) {
-        super(p_173954_, new CodModel<>(p_173954_.bakeLayer(ModelLayers.COD)), 0.3F);
+        super(p_173954_, new CodModel<>(p_173954_.bakeLayer(ModelLayers.COD)), 0.3F);  // 借用鳕鱼的模型 ヾ(≧▽≦*)o
     }
 
     /**
      * Returns the location of an entity's texture.
      */
     public @NotNull ResourceLocation getTextureLocation(@NotNull Zako entity) {
-        return COD_LOCATION;
+        return ZAKO_LOCATION;
     }
 
     protected void setupRotations(@NotNull Zako entity, @NotNull PoseStack poseStack, float bob, float yBodyRot, float partialTick, float scale) {

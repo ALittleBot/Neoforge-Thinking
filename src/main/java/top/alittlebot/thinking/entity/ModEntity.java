@@ -20,6 +20,6 @@ public class ModEntity {
                 .sized(0.5F, 0.3F)
                 .eyeHeight(0.195F)
                 .clientTrackingRange(4)
-                .build(ZAKO_ID));
+                .build(ZAKO_ID));  // 借用鳕鱼的数据 (●'◡'●)
     }
 }

@@ -11,6 +11,6 @@ import top.alittlebot.thinking.entity.ModEntity;
 public class ModClientEvents {
     @SubscribeEvent
     public static void onRegisterAttributes(EntityAttributeCreationEvent event) {
-        event.put(ModEntity.ZAKO.get(), Cod.createAttributes().build());
+        event.put(ModEntity.ZAKO.get(), Cod.createAttributes().build());  // 摆了, 就这样写吧 （；´д｀）ゞ
     }
 }
