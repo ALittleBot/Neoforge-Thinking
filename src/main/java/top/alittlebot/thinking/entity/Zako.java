@@ -17,7 +17,7 @@ public class Zako extends AbstractSchoolingFish {
 
     @Override
     public @NotNull ItemStack getBucketItemStack() {
-        return new ItemStack(Items.COD_BUCKET);
+        return new ItemStack(Items.COD_BUCKET);  // 就这样吧, 不想再写个桶了 ヾ(•ω•`)o
     }
 
     @Override

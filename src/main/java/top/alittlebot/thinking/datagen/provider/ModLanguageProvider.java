@@ -25,6 +25,7 @@ public class ModLanguageProvider {
             this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "Potion Throwing Glove");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
+            this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
 
             this.add(ModCreativeTab.MOD_TAB_ID, "Thinking");
         }
@@ -47,6 +48,7 @@ public class ModLanguageProvider {
             this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "药水投掷手套");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
+            this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");
 
             this.add(ModCreativeTab.MOD_TAB_ID, "别吵, 我在思考");
         }
