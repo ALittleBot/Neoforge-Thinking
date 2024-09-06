@@ -6,7 +6,6 @@
     "BlockMixin",
     "FireworkRocketItemMixin",
     "ParrotMixin",
-    "SpawnEggItemMixin",
     "TridentItemMixin",
     "VaultBlockEntityServerMixin",
     "VaultServerDataInvoker"
