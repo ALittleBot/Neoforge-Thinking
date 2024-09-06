@@ -8,7 +8,7 @@ import top.alittlebot.thinking.Thinking;
 
 import java.util.function.Supplier;
 
-public class ModEntity {
+public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, Thinking.MODID);
 
     public static final String ZAKO_ID = "zako";
