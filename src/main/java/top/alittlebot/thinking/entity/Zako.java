@@ -11,10 +11,14 @@ import net.minecraft.world.entity.animal.AbstractSchoolingFish;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.PotionContents;
+import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
 public class Zako extends AbstractSchoolingFish {
+    private boolean canGenerateWater = false;
+
     public Zako(EntityType<? extends Zako> entityType, Level level) {
         super(entityType, level);
     }
@@ -57,9 +61,25 @@ public class Zako extends AbstractSchoolingFish {
                     this.level().addParticle(ParticleTypes.HEART, this.getRandomX(1.0), this.getRandomY() + 0.5, this.getRandomZ(1.0), d0, d1, d2);
                 }
             }
+            if (!this.level().isClientSide) {
+                canGenerateWater = true;
+                if (!player.isCreative()) {
+                    itemInHand.shrink(1);
+                }
+            }
             return InteractionResult.sidedSuccess(this.level().isClientSide);
+        }
+        if (itemInHand.getItem() == Items.GLASS_BOTTLE) {
+            if (canGenerateWater) {
+                if (!this.level().isClientSide) {
+                    player.setItemInHand(hand, PotionContents.createItemStack(Items.POTION, Potions.THICK));
+                    canGenerateWater = false;
+                }
+                return InteractionResult.sidedSuccess(this.level().isClientSide);
+            } else {
+                return InteractionResult.PASS;
+            }
         }
         return super.mobInteract(player, hand);
     }
-
 }
