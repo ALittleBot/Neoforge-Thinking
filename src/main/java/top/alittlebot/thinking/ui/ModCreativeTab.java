@@ -23,6 +23,8 @@ public class ModCreativeTab {
                     output.accept(ModItems.BRAIN_ITEM.get());
                     output.accept(ModItems.POTION_THROWING_GLOVE_ITEM.get());
                     output.accept(ModItems.ZAKO_SPAWN_EGG_ITEM.get());
+                    output.accept(ModItems.BILI_COIN_ITEM.get());
+                    output.accept(ModItems.COOKED_BILI_COIN_ITEM.get());
                 }).build());
     }
 }

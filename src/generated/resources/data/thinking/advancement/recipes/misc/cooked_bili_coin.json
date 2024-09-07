@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bili_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thinking:bili_coin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thinking:cooked_bili_coin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bili_coin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thinking:cooked_bili_coin"
+    ]
+  }
+}

@@ -17,6 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.singleTexture(ModItems.BRAIN_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.BRAIN_ID));
         this.singleTexture(ModItems.POTION_THROWING_GLOVE_ID, ResourceLocation.withDefaultNamespace("item/handheld"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.POTION_THROWING_GLOVE_ID));
         this.singleTexture(ModItems.BILI_COIN_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.BILI_COIN_ID));
+        this.singleTexture(ModItems.COOKED_BILI_COIN_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.COOKED_BILI_COIN_ID));
 
         this.withExistingParent(ModItems.ZAKO_SPAWN_EGG_ID, this.mcLoc("item/template_spawn_egg"));
     }

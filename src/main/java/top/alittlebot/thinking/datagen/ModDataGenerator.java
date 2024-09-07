@@ -7,10 +7,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import top.alittlebot.thinking.Thinking;
-import top.alittlebot.thinking.datagen.provider.ModDatapackBuiltinEntriesProvider;
-import top.alittlebot.thinking.datagen.provider.ModItemModelProvider;
-import top.alittlebot.thinking.datagen.provider.ModLanguageProvider;
-import top.alittlebot.thinking.datagen.provider.ModSoundDefinitionsProvider;
+import top.alittlebot.thinking.datagen.provider.*;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -29,5 +26,6 @@ public class ModDataGenerator {
         generator.addProvider(event.includeClient(), new ModLanguageProvider.ChineseLanguageProvider(output));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(output, event.getExistingFileHelper()));
         generator.addProvider(event.includeClient(), new ModSoundDefinitionsProvider(output, event.getExistingFileHelper()));
+        generator.addProvider(event.includeServer(), new ModRecipeProvider(output, lookupProvider));
     }
 }

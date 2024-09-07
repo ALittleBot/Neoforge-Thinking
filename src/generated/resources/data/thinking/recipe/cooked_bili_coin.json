@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "thinking",
+  "ingredient": {
+    "item": "thinking:bili_coin"
+  },
+  "result": {
+    "count": 1,
+    "id": "thinking:cooked_bili_coin"
+  }
+}
