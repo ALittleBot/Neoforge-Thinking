@@ -1,0 +1,9 @@
+{
+  "entity.bili_coin.throw": {
+    "replace": true,
+    "sounds": [
+      "thinking:entity.bili_coin.throw"
+    ],
+    "subtitle": "subtitles.entity.bili_coin.throw"
+  }
+}

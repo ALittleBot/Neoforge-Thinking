@@ -3,9 +3,11 @@
   "enchantment.thinking.damaged": "Damaged",
   "enchantment.thinking.raining_knives": "§cRaining Knives",
   "entity.thinking.zako": "Zako",
+  "item.thinking.bili_coin": "Bili Coin",
   "item.thinking.brain": "Brain",
   "item.thinking.potion_throwing_glove": "Potion Throwing Glove",
   "item.thinking.smile_emoji": "Smile Mask",
   "item.thinking.zako_spawn_egg": "Zako Spawn Egg",
-  "item_group.thinking.name": "Thinking"
+  "item_group.thinking.name": "Thinking",
+  "subtitles.entity.bili_coin.throw": "Bili Coin flies"
 }
