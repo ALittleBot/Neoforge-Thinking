@@ -27,5 +27,7 @@ public class ModDataGenerator {
         generator.addProvider(event.includeClient(), new ModItemModelProvider(output, event.getExistingFileHelper()));
         generator.addProvider(event.includeClient(), new ModSoundDefinitionsProvider(output, event.getExistingFileHelper()));
         generator.addProvider(event.includeServer(), new ModRecipeProvider(output, lookupProvider));
+
+        generator.addProvider(event.includeServer(), new ModLootTableProvider(output, lookupProvider));
     }
 }
