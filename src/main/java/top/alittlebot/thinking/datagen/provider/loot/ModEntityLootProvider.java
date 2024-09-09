@@ -14,6 +14,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCon
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import org.jetbrains.annotations.NotNull;
 import top.alittlebot.thinking.entity.ModEntities;
+import top.alittlebot.thinking.item.ModItems;
 
 import java.util.stream.Stream;
 
@@ -31,7 +32,7 @@ public class ModEntityLootProvider extends EntityLootSubProvider {
                         .withPool(
                                 LootPool.lootPool()
                                         .setRolls(ConstantValue.exactly(1.0F))
-                                        .add(LootItem.lootTableItem(Items.COD).apply(SmeltItemFunction.smelted().when(this.shouldSmeltLoot())))
+                                        .add(LootItem.lootTableItem(ModItems.ZAKO_ITEM.get()).apply(SmeltItemFunction.smelted().when(this.shouldSmeltLoot())))
                         )
                         .withPool(
                                 LootPool.lootPool()
