@@ -25,6 +25,7 @@ public class ModLanguageProvider {
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
             this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "Potion Throwing Glove");
             this.add(ModItems.ZAKO_ITEM.get(), "Raw Zako");
+            this.add(ModItems.COOKED_ZAKO_ITEM.get(), "Cooked Zako");
             this.add(ModItems.BILI_COIN_ITEM.get(), "Bili Coin");
             this.add(ModItems.COOKED_BILI_COIN_ITEM.get(), "Cooked Bili Coin");
 
@@ -53,6 +54,7 @@ public class ModLanguageProvider {
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
             this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "药水投掷手套");
             this.add(ModItems.ZAKO_ITEM.get(), "生杂鱼");
+            this.add(ModItems.COOKED_ZAKO_ITEM.get(), "熟杂鱼");
             this.add(ModItems.BILI_COIN_ITEM.get(), "硬币");
             this.add(ModItems.COOKED_BILI_COIN_ITEM.get(), "熟硬币");
 

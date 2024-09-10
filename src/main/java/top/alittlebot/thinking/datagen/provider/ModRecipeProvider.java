@@ -19,6 +19,16 @@ public class ModRecipeProvider extends RecipeProvider {
     @Override
     protected void buildRecipes(@NotNull RecipeOutput recipeOutput) {
         SimpleCookingRecipeBuilder.smelting(
+                        Ingredient.of(ModItems.ZAKO_ITEM.get()),
+                        RecipeCategory.FOOD,
+                        ModItems.COOKED_ZAKO_ITEM.get(),
+                        0.1f,
+                        200
+                )
+                .group(Thinking.MODID)
+                .unlockedBy(getHasName(ModItems.ZAKO_ITEM.get()), has(ModItems.ZAKO_ITEM.get()))
+                .save(recipeOutput);
+        SimpleCookingRecipeBuilder.smelting(
                         Ingredient.of(ModItems.BILI_COIN_ITEM.get()),
                         RecipeCategory.MISC,
                         ModItems.COOKED_BILI_COIN_ITEM.get(),
