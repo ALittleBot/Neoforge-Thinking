@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"zako_rod": "thinking:block/zako_rod"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"faces": {
+				"north": {"uv": [2, 6, 6, 7], "texture": "#zako_rod"},
+				"east": {"uv": [2, 6, 6, 7], "texture": "#zako_rod"},
+				"south": {"uv": [2, 6, 6, 7], "texture": "#zako_rod"},
+				"west": {"uv": [2, 6, 6, 7], "texture": "#zako_rod"},
+				"up": {"uv": [2, 2, 6, 6], "texture": "#zako_rod"},
+				"down": {"uv": [6, 6, 2, 2], "texture": "#zako_rod", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, 1, 7],
+			"to": [9, 32, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 15], "texture": "#zako_rod"},
+				"east": {"uv": [0, 0, 2, 15], "texture": "#zako_rod"},
+				"south": {"uv": [0, 0, 2, 15], "texture": "#zako_rod"},
+				"west": {"uv": [0, 0, 2, 15], "texture": "#zako_rod"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#zako_rod", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"head": {
+			"rotation": [-60, 0, 0],
+			"translation": [0, 5, -9]
+		}
+	}
+}
