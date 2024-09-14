@@ -37,7 +37,7 @@ public class ModItems {
                 new Item.Properties().stacksTo(1)
         ));
         */
-        SMILE_EMOJI_ITEM = ITEMS.registerSimpleItem(SMILE_EMOJI_ID);
+        SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new SmileEmojiItem(new Item.Properties().stacksTo(1)));
         BRAIN_ITEM = ITEMS.registerSimpleItem(BRAIN_ID);
         POTION_THROWING_GLOVE_ITEM = ITEMS.register(POTION_THROWING_GLOVE_ID, () -> new PotionThrowingGloveItem(new Item.Properties().stacksTo(1)));
         ZAKO_ITEM = ITEMS.register(ZAKO_ID, () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationModifier(0.4F).build())));
