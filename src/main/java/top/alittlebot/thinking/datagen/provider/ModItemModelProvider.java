@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.singleTexture(ModItems.POTION_THROWING_GLOVE_ID, ResourceLocation.withDefaultNamespace("item/handheld"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.POTION_THROWING_GLOVE_ID));
         this.singleTexture(ModItems.ZAKO_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.ZAKO_ID));
         this.singleTexture(ModItems.COOKED_ZAKO_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.COOKED_ZAKO_ID));
+        this.singleTexture(ModItems.CHARRED_ZAKO_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.CHARRED_ZAKO_ID));
         this.singleTexture(ModItems.BILI_COIN_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.BILI_COIN_ID));
         this.singleTexture(ModItems.COOKED_BILI_COIN_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.COOKED_BILI_COIN_ID));
 

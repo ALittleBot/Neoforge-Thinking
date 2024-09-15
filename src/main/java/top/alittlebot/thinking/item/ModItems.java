@@ -1,5 +1,7 @@
 package top.alittlebot.thinking.item;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -19,6 +21,7 @@ public class ModItems {
     public static final String COOKED_ZAKO_ID = "cooked_zako";
     public static final String BILI_COIN_ID = "bili_coin";
     public static final String COOKED_BILI_COIN_ID = "cooked_bili_coin";
+    public static final String CHARRED_ZAKO_ID = "charred_zako";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
     public static final Supplier<Item> BRAIN_ITEM;
@@ -28,15 +31,9 @@ public class ModItems {
     public static final Supplier<Item> COOKED_ZAKO_ITEM;
     public static final Supplier<Item> BILI_COIN_ITEM;
     public static final Supplier<Item> COOKED_BILI_COIN_ITEM;
+    public static final Supplier<Item> CHARRED_ZAKO_ITEM;
 
     static {
-        /*
-        SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new ArmorItem(
-                ArmorMaterials.IRON,
-                ArmorItem.Type.HELMET,
-                new Item.Properties().stacksTo(1)
-        ));
-        */
         SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new SmileEmojiItem(new Item.Properties().stacksTo(1)));
         BRAIN_ITEM = ITEMS.registerSimpleItem(BRAIN_ID);
         POTION_THROWING_GLOVE_ITEM = ITEMS.register(POTION_THROWING_GLOVE_ID, () -> new PotionThrowingGloveItem(new Item.Properties().stacksTo(1)));
@@ -48,6 +45,12 @@ public class ModItems {
                 .nutrition(6)
                 .saturationModifier(9.6F)
                 .alwaysEdible()
+                .build())));
+        CHARRED_ZAKO_ITEM = ITEMS.register(CHARRED_ZAKO_ID, () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(6)
+                .saturationModifier(9.6F)
+                .alwaysEdible()
+                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 600), 1.0F)
                 .build())));
     }
 }

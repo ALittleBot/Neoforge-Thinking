@@ -29,6 +29,16 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(ModItems.ZAKO_ITEM.get()), has(ModItems.ZAKO_ITEM.get()))
                 .save(recipeOutput);
         SimpleCookingRecipeBuilder.smelting(
+                        Ingredient.of(ModItems.COOKED_ZAKO_ITEM.get()),
+                        RecipeCategory.MISC,
+                        ModItems.CHARRED_ZAKO_ITEM.get(),
+                        0.1f,
+                        200
+                )
+                .group(Thinking.MODID)
+                .unlockedBy(getHasName(ModItems.COOKED_ZAKO_ITEM.get()), has(ModItems.COOKED_ZAKO_ITEM.get()))
+                .save(recipeOutput);  // 还没做烟熏炉的
+        SimpleCookingRecipeBuilder.smelting(
                         Ingredient.of(ModItems.BILI_COIN_ITEM.get()),
                         RecipeCategory.MISC,
                         ModItems.COOKED_BILI_COIN_ITEM.get(),

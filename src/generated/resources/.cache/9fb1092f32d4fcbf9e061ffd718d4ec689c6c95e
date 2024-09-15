@@ -1,5 +1,7 @@
-// 1.21	2024-09-10T22:11:35.8623046	Recipes
+// 1.21	2024-09-15T23:44:10.0606589	Recipes
 d7f6651042583114c6879009ffbc3f1d2c72d94a data/thinking/advancement/recipes/food/cooked_zako.json
+ed881c7c5eb636280bf8ec3177db5e8216810398 data/thinking/advancement/recipes/misc/charred_zako.json
 1daaefb3dbc1b9185fc54f9e061a007438e05e91 data/thinking/advancement/recipes/misc/cooked_bili_coin.json
+e79f4ccf01f18b7c5d3a0ef2561252c41b4dcf6b data/thinking/recipe/charred_zako.json
 4646c4344a8b0957b1c824df72762a3f0e14dea3 data/thinking/recipe/cooked_bili_coin.json
 94ff990adfcd0dcc8b9f56100e6c8f6cb4b6737f data/thinking/recipe/cooked_zako.json

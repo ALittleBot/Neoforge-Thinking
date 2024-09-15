@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_zako": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thinking:cooked_zako"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thinking:charred_zako"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_zako"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thinking:charred_zako"
+    ]
+  }
+}
