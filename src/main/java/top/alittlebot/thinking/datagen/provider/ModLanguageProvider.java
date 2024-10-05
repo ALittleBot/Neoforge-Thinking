@@ -21,6 +21,9 @@ public class ModLanguageProvider {
             this.add("enchantment.thinking.damaged", "Damaged");
             this.add("enchantment.thinking.raining_knives", "§cRaining Knives");
 
+            this.add("item.thinking.game_checker_tool.title", "Test result");
+            this.add("item.thinking.game_checker_tool.result", "The game is running (●'◡'●)");
+
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
             this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "Potion Throwing Glove");
@@ -29,6 +32,7 @@ public class ModLanguageProvider {
             this.add(ModItems.CHARRED_ZAKO_ITEM.get(), "★ Zako | Scorched (Factory New)");
             this.add(ModItems.BILI_COIN_ITEM.get(), "Bili Coin");
             this.add(ModItems.COOKED_BILI_COIN_ITEM.get(), "Cooked Bili Coin");
+            this.add(ModItems.GAME_CHECKER_TOOL_ITEM.get(), "Game Checker Tool");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
@@ -51,6 +55,9 @@ public class ModLanguageProvider {
             this.add("enchantment.thinking.damaged", "损坏");
             this.add("enchantment.thinking.raining_knives", "§c天上下刀子");  // 不知道怎么设置诅咒, 凑合一下 ヾ(•ω•`)o
 
+            this.add("item.thinking.game_checker_tool.title", "检测结果");
+            this.add("item.thinking.game_checker_tool.result", "游戏正在运行中 (●'◡'●)");
+
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
             this.add(ModItems.POTION_THROWING_GLOVE_ITEM.get(), "药水投掷手套");
@@ -59,6 +66,7 @@ public class ModLanguageProvider {
             this.add(ModItems.CHARRED_ZAKO_ITEM.get(), "杂鱼（★） | 枯焦之色 (崭新出厂)");
             this.add(ModItems.BILI_COIN_ITEM.get(), "硬币");
             this.add(ModItems.COOKED_BILI_COIN_ITEM.get(), "熟硬币");
+            this.add(ModItems.GAME_CHECKER_TOOL_ITEM.get(), "游戏是否运行检测工具");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");

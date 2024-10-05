@@ -22,6 +22,7 @@ public class ModItems {
     public static final String BILI_COIN_ID = "bili_coin";
     public static final String COOKED_BILI_COIN_ID = "cooked_bili_coin";
     public static final String CHARRED_ZAKO_ID = "charred_zako";
+    public static final String GAME_CHECKER_TOOL_ID = "game_checker_tool";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
     public static final Supplier<Item> BRAIN_ITEM;
@@ -32,6 +33,7 @@ public class ModItems {
     public static final Supplier<Item> BILI_COIN_ITEM;
     public static final Supplier<Item> COOKED_BILI_COIN_ITEM;
     public static final Supplier<Item> CHARRED_ZAKO_ITEM;
+    public static final Supplier<Item> GAME_CHECKER_TOOL_ITEM;
 
     static {
         SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new SmileEmojiItem(new Item.Properties().stacksTo(1)));
@@ -52,5 +54,6 @@ public class ModItems {
                 .alwaysEdible()
                 .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 600), 1.0F)
                 .build())));
+        GAME_CHECKER_TOOL_ITEM = ITEMS.register(GAME_CHECKER_TOOL_ID, () -> new GameCheckerToolItem(new Item.Properties().stacksTo(1)));
     }
 }
