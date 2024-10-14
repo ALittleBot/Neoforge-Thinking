@@ -30,6 +30,7 @@ public class ModCreativeTab {
                     output.accept(ModItems.COOKED_BILI_COIN_ITEM.get());
                     output.accept(ModItems.GAME_CHECKER_TOOL_ITEM.get());
                     output.accept(ModItems.FRAME_TOOL_ITEM.get());
+                    output.accept(ModItems.MOUSE_CHECKER_TOOL_ITEM.get());
                 }).build());
     }
 }

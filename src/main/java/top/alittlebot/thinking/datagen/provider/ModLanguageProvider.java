@@ -25,6 +25,8 @@ public class ModLanguageProvider {
             this.add("item.thinking.game_checker_tool.result", "The game is running (●'◡'●)");
             this.add("item.thinking.frame_tool.enabled", "The Frame tool is enabled ヾ(≧▽≦*)o");
             this.add("item.thinking.frame_tool.disabled", "The Frame tool is disabled w(ﾟДﾟ)w");
+            this.add("item.thinking.mouse_checker_tool.checking", "Checking, please wait a few seconds…");
+            this.add("item.thinking.mouse_checker_tool.result", "Congratulations, the right mouse button is available ヾ(≧▽≦*)o");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
@@ -36,6 +38,7 @@ public class ModLanguageProvider {
             this.add(ModItems.COOKED_BILI_COIN_ITEM.get(), "Cooked Bili Coin");
             this.add(ModItems.GAME_CHECKER_TOOL_ITEM.get(), "Game Checker Tool");
             this.add(ModItems.FRAME_TOOL_ITEM.get(), "Frame Tool");
+            this.add(ModItems.MOUSE_CHECKER_TOOL_ITEM.get(), "Mouse Checker Tool");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
@@ -62,6 +65,8 @@ public class ModLanguageProvider {
             this.add("item.thinking.game_checker_tool.result", "游戏正在运行中 (●'◡'●)");
             this.add("item.thinking.frame_tool.enabled", "画框工具已启用 ヾ(≧▽≦*)o");
             this.add("item.thinking.frame_tool.disabled", "画框工具已禁用 w(ﾟДﾟ)w");
+            this.add("item.thinking.mouse_checker_tool.checking", "正在检测……");
+            this.add("item.thinking.mouse_checker_tool.result", "恭喜您, 鼠标右键可用 ヾ(≧▽≦*)o (检测结果仅供参考, 请以实际为准)");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
@@ -73,6 +78,7 @@ public class ModLanguageProvider {
             this.add(ModItems.COOKED_BILI_COIN_ITEM.get(), "熟硬币");
             this.add(ModItems.GAME_CHECKER_TOOL_ITEM.get(), "游戏是否运行检测工具");
             this.add(ModItems.FRAME_TOOL_ITEM.get(), "画框工具");
+            this.add(ModItems.MOUSE_CHECKER_TOOL_ITEM.get(), "鼠标检测工具");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");

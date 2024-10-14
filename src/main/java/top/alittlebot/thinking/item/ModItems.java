@@ -25,6 +25,7 @@ public class ModItems {
     public static final String CHARRED_ZAKO_ID = "charred_zako";
     public static final String GAME_CHECKER_TOOL_ID = "game_checker_tool";
     public static final String FRAME_TOOL_ID = "frame_tool";
+    public static final String MOUSE_CHECKER_TOOL_ID = "mouse_checker_tool";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
     public static final Supplier<Item> BRAIN_ITEM;
@@ -37,6 +38,7 @@ public class ModItems {
     public static final Supplier<Item> CHARRED_ZAKO_ITEM;
     public static final Supplier<Item> GAME_CHECKER_TOOL_ITEM;
     public static final Supplier<Item> FRAME_TOOL_ITEM;
+    public static final Supplier<Item> MOUSE_CHECKER_TOOL_ITEM;
 
     static {
         SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new SmileEmojiItem(new Item.Properties().stacksTo(1)));
@@ -59,5 +61,6 @@ public class ModItems {
                 .build())));
         GAME_CHECKER_TOOL_ITEM = ITEMS.register(GAME_CHECKER_TOOL_ID, () -> new GameCheckerToolItem(new Item.Properties().stacksTo(1)));
         FRAME_TOOL_ITEM = ITEMS.register(FRAME_TOOL_ID, () -> new FrameToolItem(new Item.Properties().stacksTo(1)));
+        MOUSE_CHECKER_TOOL_ITEM = ITEMS.register(MOUSE_CHECKER_TOOL_ID, () -> new MouseCheckerToolItem(new Item.Properties().stacksTo(1)));
     }
 }
