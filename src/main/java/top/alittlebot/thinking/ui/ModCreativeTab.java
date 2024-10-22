@@ -32,6 +32,7 @@ public class ModCreativeTab {
                     output.accept(ModItems.FRAME_TOOL_ITEM.get());
                     output.accept(ModItems.MOUSE_CHECKER_TOOL_ITEM.get());
                     output.accept(ModItems.HAND_CHECKER_TOOL_ITEM.get());
+                    output.accept(ModItems.REPEATER_TOOL_ITEM.get());
                 }).build());
     }
 }

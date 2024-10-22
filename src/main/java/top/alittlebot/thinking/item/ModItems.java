@@ -27,6 +27,7 @@ public class ModItems {
     public static final String FRAME_TOOL_ID = "frame_tool";
     public static final String MOUSE_CHECKER_TOOL_ID = "mouse_checker_tool";
     public static final String HAND_CHECKER_TOOL_ID = "hand_checker_tool";
+    public static final String REPEATER_TOOL_ID = "repeater_tool";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
     public static final Supplier<Item> BRAIN_ITEM;
@@ -41,6 +42,7 @@ public class ModItems {
     public static final Supplier<Item> FRAME_TOOL_ITEM;
     public static final Supplier<Item> MOUSE_CHECKER_TOOL_ITEM;
     public static final Supplier<Item> HAND_CHECKER_TOOL_ITEM;
+    public static final Supplier<Item> REPEATER_TOOL_ITEM;
 
     static {
         SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new SmileEmojiItem(new Item.Properties().stacksTo(1)));
@@ -65,5 +67,6 @@ public class ModItems {
         FRAME_TOOL_ITEM = ITEMS.register(FRAME_TOOL_ID, () -> new FrameToolItem(new Item.Properties().stacksTo(1)));
         MOUSE_CHECKER_TOOL_ITEM = ITEMS.register(MOUSE_CHECKER_TOOL_ID, () -> new MouseCheckerToolItem(new Item.Properties().stacksTo(1)));
         HAND_CHECKER_TOOL_ITEM = ITEMS.register(HAND_CHECKER_TOOL_ID, () -> new HandCheckerToolItem(new Item.Properties().stacksTo(1)));
+        REPEATER_TOOL_ITEM = ITEMS.register(REPEATER_TOOL_ID, () -> new RepeaterToolItem(new Item.Properties().stacksTo(1)));
     }
 }

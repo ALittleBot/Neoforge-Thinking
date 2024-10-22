@@ -30,6 +30,10 @@ public class ModLanguageProvider {
             this.add("item.thinking.hand_checker_tool.empty", "Empty");
             this.add("item.thinking.hand_checker_tool.main_hand", "Items held in the main hand: ");
             this.add("item.thinking.hand_checker_tool.offhand", "Off-hand holding items: ");
+            this.add("item.thinking.repeater_tool.enabled", "Repeat mode is enabled (●'◡'●)");
+            this.add("item.thinking.repeater_tool.disabled", "Repeat mode is disabled w(ﾟДﾟ)w");
+            this.add("item.thinking.repeater_tool.repeating", "Repeating... Please wait a moment ヾ(≧▽≦*)o");
+            this.add("item.thinking.repeater_tool.repeat_successfully", "Repeat successfully ヾ(≧▽≦*)o");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
@@ -43,6 +47,7 @@ public class ModLanguageProvider {
             this.add(ModItems.FRAME_TOOL_ITEM.get(), "Frame Tool");
             this.add(ModItems.MOUSE_CHECKER_TOOL_ITEM.get(), "Mouse Checker Tool");
             this.add(ModItems.HAND_CHECKER_TOOL_ITEM.get(), "Two-handed Checker Tool");
+            this.add(ModItems.REPEATER_TOOL_ITEM.get(), "Repeater Tool");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
@@ -74,6 +79,10 @@ public class ModLanguageProvider {
             this.add("item.thinking.hand_checker_tool.empty", "空");
             this.add("item.thinking.hand_checker_tool.main_hand", "主手持有物品: ");
             this.add("item.thinking.hand_checker_tool.offhand", "副手持有物品: ");
+            this.add("item.thinking.repeater_tool.enabled", "复读模式已启用 (●'◡'●)");
+            this.add("item.thinking.repeater_tool.disabled", "复读模式已禁用 w(ﾟДﾟ)w");
+            this.add("item.thinking.repeater_tool.repeating", "复读中, 请耐心等待 ヾ(≧▽≦*)o");
+            this.add("item.thinking.repeater_tool.repeat_successfully", "复读成功 ヾ(≧▽≦*)o");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
@@ -87,6 +96,7 @@ public class ModLanguageProvider {
             this.add(ModItems.FRAME_TOOL_ITEM.get(), "画框工具");
             this.add(ModItems.MOUSE_CHECKER_TOOL_ITEM.get(), "鼠标检测工具");
             this.add(ModItems.HAND_CHECKER_TOOL_ITEM.get(), "检测双手是否持有物品工具");
+            this.add(ModItems.REPEATER_TOOL_ITEM.get(), "复读机");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");
