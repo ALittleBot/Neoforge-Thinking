@@ -48,6 +48,7 @@ public class ModLanguageProvider {
             this.add(ModItems.MOUSE_CHECKER_TOOL_ITEM.get(), "Mouse Checker Tool");
             this.add(ModItems.HAND_CHECKER_TOOL_ITEM.get(), "Two-handed Checker Tool");
             this.add(ModItems.REPEATER_TOOL_ITEM.get(), "Repeater Tool");
+            this.add(ModItems.EXIT_GAME_TOOL_ITEM.get(), "Exit Game Tool");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
@@ -97,6 +98,7 @@ public class ModLanguageProvider {
             this.add(ModItems.MOUSE_CHECKER_TOOL_ITEM.get(), "鼠标检测工具");
             this.add(ModItems.HAND_CHECKER_TOOL_ITEM.get(), "检测双手是否持有物品工具");
             this.add(ModItems.REPEATER_TOOL_ITEM.get(), "复读机");
+            this.add(ModItems.EXIT_GAME_TOOL_ITEM.get(), "退出游戏工具");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");
