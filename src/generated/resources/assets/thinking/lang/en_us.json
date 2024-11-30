@@ -20,6 +20,8 @@
   "item.thinking.hand_checker_tool.main_hand": "Items held in the main hand: ",
   "item.thinking.hand_checker_tool.offhand": "Off-hand holding items: ",
   "item.thinking.hand_checker_tool.result": "Congratulations, the right mouse button is available ヾ(≧▽≦*)o",
+  "item.thinking.minus_health_tool": "Minus Health Tool",
+  "item.thinking.minus_health_tool.desc": "Maybe useful...",
   "item.thinking.mouse_checker_tool": "Mouse Checker Tool",
   "item.thinking.mouse_checker_tool.checking": "Checking, please wait a few seconds…",
   "item.thinking.potion_throwing_glove": "Potion Throwing Glove",

@@ -19,6 +19,8 @@
   "item.thinking.hand_checker_tool.empty": "空",
   "item.thinking.hand_checker_tool.main_hand": "主手持有物品: ",
   "item.thinking.hand_checker_tool.offhand": "副手持有物品: ",
+  "item.thinking.minus_health_tool": "扣除血量工具",
+  "item.thinking.minus_health_tool.desc": "专为不方便扣血的玩家而生",
   "item.thinking.mouse_checker_tool": "鼠标检测工具",
   "item.thinking.mouse_checker_tool.checking": "正在检测……",
   "item.thinking.mouse_checker_tool.result": "恭喜您, 鼠标右键可用 ヾ(≧▽≦*)o (检测结果仅供参考, 请以实际为准)",

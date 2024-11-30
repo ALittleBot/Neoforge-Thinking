@@ -34,6 +34,7 @@ public class ModLanguageProvider {
             this.add("item.thinking.repeater_tool.disabled", "Repeat mode is disabled w(ﾟДﾟ)w");
             this.add("item.thinking.repeater_tool.repeating", "Repeating... Please wait a moment ヾ(≧▽≦*)o");
             this.add("item.thinking.repeater_tool.repeat_successfully", "Repeat successfully ヾ(≧▽≦*)o");
+            this.add("item.thinking.minus_health_tool.desc", "Maybe useful...");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
@@ -49,6 +50,7 @@ public class ModLanguageProvider {
             this.add(ModItems.HAND_CHECKER_TOOL_ITEM.get(), "Two-handed Checker Tool");
             this.add(ModItems.REPEATER_TOOL_ITEM.get(), "Repeater Tool");
             this.add(ModItems.EXIT_GAME_TOOL_ITEM.get(), "Exit Game Tool");
+            this.add(ModItems.MINUS_HEALTH_TOOL_ITEM.get(), "Minus Health Tool");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
@@ -84,6 +86,7 @@ public class ModLanguageProvider {
             this.add("item.thinking.repeater_tool.disabled", "复读模式已禁用 w(ﾟДﾟ)w");
             this.add("item.thinking.repeater_tool.repeating", "复读中, 请耐心等待 ヾ(≧▽≦*)o");
             this.add("item.thinking.repeater_tool.repeat_successfully", "复读成功 ヾ(≧▽≦*)o");
+            this.add("item.thinking.minus_health_tool.desc", "专为不方便扣血的玩家而生");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
@@ -99,6 +102,7 @@ public class ModLanguageProvider {
             this.add(ModItems.HAND_CHECKER_TOOL_ITEM.get(), "检测双手是否持有物品工具");
             this.add(ModItems.REPEATER_TOOL_ITEM.get(), "复读机");
             this.add(ModItems.EXIT_GAME_TOOL_ITEM.get(), "退出游戏工具");
+            this.add(ModItems.MINUS_HEALTH_TOOL_ITEM.get(), "扣除血量工具");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");

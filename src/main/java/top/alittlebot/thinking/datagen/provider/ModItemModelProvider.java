@@ -27,6 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.singleTexture(ModItems.HAND_CHECKER_TOOL_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.HAND_CHECKER_TOOL_ID));
         this.singleTexture(ModItems.REPEATER_TOOL_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.REPEATER_TOOL_ID));
         this.singleTexture(ModItems.EXIT_GAME_TOOL_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.EXIT_GAME_TOOL_ID));
+        this.singleTexture(ModItems.MINUS_HEALTH_TOOL_ID, ResourceLocation.withDefaultNamespace("item/generated"), "layer0", ResourceLocation.fromNamespaceAndPath(Thinking.MODID, "item/" + ModItems.MINUS_HEALTH_TOOL_ID));
 
         this.withExistingParent(ModItems.ZAKO_SPAWN_EGG_ID, this.mcLoc("item/template_spawn_egg"));
     }
