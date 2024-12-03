@@ -1,4 +1,4 @@
-// 1.21	2024-11-28T19:58:27.2303306	Item Models: thinking
+// 1.21	2024-11-30T22:47:10.478997	Item Models: thinking
 83fcf7d70b3d1fb8f1960b5b8089a1da0f2aa2e4 assets/thinking/models/item/bili_coin.json
 a74fb06b376b3513220bbef809c51ec34b94f8f3 assets/thinking/models/item/brain.json
 472d0cd33f89a381ba98c82b2906c8ac4650ad1e assets/thinking/models/item/charred_zako.json
@@ -7,6 +7,7 @@ c5a954b1dc7eaad62a980e26c8dc6ae4b98cf05b assets/thinking/models/item/cooked_zako
 5f87ac7ff06089ea822eb221cb6f6e92694b5c75 assets/thinking/models/item/exit_game_tool.json
 43dcf105e37a5d6583a59f08e1600bcbd1232a27 assets/thinking/models/item/frame_tool.json
 5d532f6300cca5439d491167d3888074b3cebeb3 assets/thinking/models/item/game_checker_tool.json
+4583b94b17edea01460436c993ff8239d99c1c96 assets/thinking/models/item/game_crash_tool.json
 3f9d5b3c1884a32e7fd8fc3c53afd070b87ef063 assets/thinking/models/item/hand_checker_tool.json
 3613095167a5c9b3b930df77fe9450beee85794c assets/thinking/models/item/minus_health_tool.json
 b1c6e37e0effa3a3d4eda651fcce52ad46f70eac assets/thinking/models/item/mouse_checker_tool.json

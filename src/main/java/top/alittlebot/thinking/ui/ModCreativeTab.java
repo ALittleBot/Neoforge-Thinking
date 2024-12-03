@@ -35,6 +35,7 @@ public class ModCreativeTab {
                     output.accept(ModItems.REPEATER_TOOL_ITEM.get());
                     output.accept(ModItems.EXIT_GAME_TOOL_ITEM.get());
                     output.accept(ModItems.MINUS_HEALTH_TOOL_ITEM.get());
+                    output.accept(ModItems.GAME_CRASH_TOOL_ITEM.get());
                 }).build());
     }
 }

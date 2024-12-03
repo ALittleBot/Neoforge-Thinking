@@ -11,6 +11,7 @@
     "VaultServerDataInvoker"
   ],
   "client": [
+    "WindowResizeDetectionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
