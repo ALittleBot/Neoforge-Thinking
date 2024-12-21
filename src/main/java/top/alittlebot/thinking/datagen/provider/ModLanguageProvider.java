@@ -37,6 +37,7 @@ public class ModLanguageProvider {
             this.add("item.thinking.minus_health_tool.desc", "Maybe useful...");
             this.add("item.thinking.game_crash_tool.enabled", "Game Crash Tool is enabled ヾ(≧▽≦*)o");
             this.add("item.thinking.game_crash_tool.disabled", "Game Crash Tool is disabled w(ﾟДﾟ)w");
+            this.add("item.thinking.version_checker_tool.result", "The current version of the game is");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "Smile Mask");
             this.add(ModItems.BRAIN_ITEM.get(), "Brain");
@@ -54,6 +55,7 @@ public class ModLanguageProvider {
             this.add(ModItems.EXIT_GAME_TOOL_ITEM.get(), "Exit Game Tool");
             this.add(ModItems.MINUS_HEALTH_TOOL_ITEM.get(), "Minus Health Tool");
             this.add(ModItems.GAME_CRASH_TOOL_ITEM.get(), "Game Crash Tool");
+            this.add(ModItems.VERSION_CHECKER_TOOL_ITEM.get(), "Version Checker Tool");
 
             this.add(ModEntities.ZAKO.get(), "Zako");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "Zako Spawn Egg");
@@ -92,6 +94,7 @@ public class ModLanguageProvider {
             this.add("item.thinking.minus_health_tool.desc", "专为不方便扣血的玩家而生");
             this.add("item.thinking.game_crash_tool.enabled", "缩放崩溃工具已启用 ヾ(≧▽≦*)o");
             this.add("item.thinking.game_crash_tool.disabled", "缩放崩溃工具已禁用 w(ﾟДﾟ)w");
+            this.add("item.thinking.version_checker_tool.result", "当前游戏版本为: ");
 
             this.add(ModItems.SMILE_EMOJI_ITEM.get(), "笑脸面具");
             this.add(ModItems.BRAIN_ITEM.get(), "大脑");
@@ -109,6 +112,7 @@ public class ModLanguageProvider {
             this.add(ModItems.EXIT_GAME_TOOL_ITEM.get(), "退出游戏工具");
             this.add(ModItems.MINUS_HEALTH_TOOL_ITEM.get(), "扣除血量工具");
             this.add(ModItems.GAME_CRASH_TOOL_ITEM.get(), "缩放崩溃工具");
+            this.add(ModItems.VERSION_CHECKER_TOOL_ITEM.get(), "游戏版本检测工具");
 
             this.add(ModEntities.ZAKO.get(), "杂鱼");
             this.add(ModItems.ZAKO_SPAWN_EGG_ITEM.get(), "杂鱼刷怪蛋");

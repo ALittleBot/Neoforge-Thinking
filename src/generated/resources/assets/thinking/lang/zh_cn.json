@@ -34,6 +34,8 @@
   "item.thinking.repeater_tool.repeat_successfully": "复读成功 ヾ(≧▽≦*)o",
   "item.thinking.repeater_tool.repeating": "复读中, 请耐心等待 ヾ(≧▽≦*)o",
   "item.thinking.smile_emoji": "笑脸面具",
+  "item.thinking.version_checker_tool": "游戏版本检测工具",
+  "item.thinking.version_checker_tool.result": "当前游戏版本为: ",
   "item.thinking.zako": "生杂鱼",
   "item.thinking.zako_spawn_egg": "杂鱼刷怪蛋",
   "item_group.thinking.name": "别吵, 我在思考",

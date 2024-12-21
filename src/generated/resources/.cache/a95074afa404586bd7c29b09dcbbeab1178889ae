@@ -1,4 +1,4 @@
-// 1.21	2024-11-30T22:47:10.478997	Item Models: thinking
+// 1.21	2024-12-21T22:51:16.4161538	Item Models: thinking
 83fcf7d70b3d1fb8f1960b5b8089a1da0f2aa2e4 assets/thinking/models/item/bili_coin.json
 a74fb06b376b3513220bbef809c51ec34b94f8f3 assets/thinking/models/item/brain.json
 472d0cd33f89a381ba98c82b2906c8ac4650ad1e assets/thinking/models/item/charred_zako.json
@@ -13,5 +13,6 @@ c5a954b1dc7eaad62a980e26c8dc6ae4b98cf05b assets/thinking/models/item/cooked_zako
 b1c6e37e0effa3a3d4eda651fcce52ad46f70eac assets/thinking/models/item/mouse_checker_tool.json
 30d7566d6e0364744de57b14d45d46fea5646cbb assets/thinking/models/item/potion_throwing_glove.json
 0f0f0335da3c46339bed0de2de3fd4ff0c85b022 assets/thinking/models/item/repeater_tool.json
+4fbef78c79e43577ef48d8fba3849f94330fec90 assets/thinking/models/item/version_checker_tool.json
 7db742e64636f90c59acff846a14a810cb4c2e02 assets/thinking/models/item/zako.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/thinking/models/item/zako_spawn_egg.json

@@ -31,6 +31,7 @@ public class ModItems {
     public static final String EXIT_GAME_TOOL_ID = "exit_game_tool";
     public static final String MINUS_HEALTH_TOOL_ID = "minus_health_tool";
     public static final String GAME_CRASH_TOOL_ID = "game_crash_tool";
+    public static final String VERSION_CHECKER_TOOL_ID = "version_checker_tool";
 
     public static final Supplier<Item> SMILE_EMOJI_ITEM;
     public static final Supplier<Item> BRAIN_ITEM;
@@ -49,6 +50,7 @@ public class ModItems {
     public static final Supplier<Item> EXIT_GAME_TOOL_ITEM;
     public static final Supplier<Item> MINUS_HEALTH_TOOL_ITEM;
     public static final Supplier<Item> GAME_CRASH_TOOL_ITEM;
+    public static final Supplier<Item> VERSION_CHECKER_TOOL_ITEM;
 
     static {
         SMILE_EMOJI_ITEM = ITEMS.register(SMILE_EMOJI_ID, () -> new SmileEmojiItem(new Item.Properties().stacksTo(1)));
@@ -77,5 +79,6 @@ public class ModItems {
         EXIT_GAME_TOOL_ITEM = ITEMS.register(EXIT_GAME_TOOL_ID, () -> new ExitGameToolItem(new Item.Properties().stacksTo(1)));
         MINUS_HEALTH_TOOL_ITEM = ITEMS.register(MINUS_HEALTH_TOOL_ID, () -> new MinusHealthToolItem(new Item.Properties().stacksTo(1)));
         GAME_CRASH_TOOL_ITEM = ITEMS.register(GAME_CRASH_TOOL_ID, () -> new GameCrashToolItem(new Item.Properties().stacksTo(1)));
+        VERSION_CHECKER_TOOL_ITEM = ITEMS.register(VERSION_CHECKER_TOOL_ID, () -> new VersionCheckerToolItem(new Item.Properties().stacksTo(1)));
     }
 }
